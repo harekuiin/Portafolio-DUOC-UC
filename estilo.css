@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0; /*del borde hacia afuera*/
     padding: 0; /*del borde hacia adentro*/
@@ -29,19 +33,41 @@ nav a:hover{
     color: rgb(247, 158, 242);
 }
 
-.container h2 {
+h2 {
     color: rgb(207, 67, 200);
+    padding: 10px;
+}
+
+h3 {
+    color: rgb(197, 84, 182);
 }
 
 .card {
+    background-color: rgb(254, 248, 255);
     border: 1px solid;
     border-color: rgb(148, 102, 192);
-    border-radius: 8px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+}
+
+footer {
+    background-color: rgb(148, 102, 192);
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 .container {
-    background-color: rgb(250, 234, 255);
+    background-color: rgb(249, 228, 255);
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: rgb(148, 102, 192);
     color: rgb(148, 102, 192);
-    margin: 20px;
+    margin: 30px;
     padding: 20px;
+}
+
+.card img {
+    max-width: 300px;
 }
